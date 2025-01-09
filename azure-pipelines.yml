@@ -25,7 +25,7 @@ steps:
   inputs:
     SonarQube: 'SonarCloud'
     organization: 'digbyswift-oss'
-    scannerMode: 'MSBuild'
+    scannerMode: 'dotnet'
     projectKey: 'digbyswift-oss_digbyswift-experian-crosscore'
     projectName: 'Digbyswift.Experian.Core'
 
