@@ -105,8 +105,7 @@ steps:
     verbosityPack: Detailed
 
 - task: PublishBuildArtifacts@1
-  displayName: Publish artifact
+  displayName: 'Publish Artifact'
+  condition: succeededOrFailed()
   inputs:
-    pathToPublish: $(Build.ArtifactStagingDirectory)
-    publishLocation: pipeline
-    artifactName: Nupkg
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
