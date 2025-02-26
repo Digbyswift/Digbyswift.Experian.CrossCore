@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFrameworks>net6.0;net48</TargetFrameworks>
@@ -8,7 +8,7 @@
         <RepositoryUrl>https://github.com/digbyswift/Digbyswift.Experian.Core</RepositoryUrl>
         <PackageTags>c# experian client</PackageTags>
         <AssemblyVersion>1.0.0</AssemblyVersion>
-        <PackageVersion>1.0.0-beta1</PackageVersion>
+        <PackageVersion>1.0.0-beta2</PackageVersion>
         <FileVersion>1.0.0</FileVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(TargetFramework)' == 'net48' ">

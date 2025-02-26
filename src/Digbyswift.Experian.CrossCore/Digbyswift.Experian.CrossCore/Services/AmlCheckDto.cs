@@ -1,8 +1,13 @@
-﻿namespace Digbyswift.Experian.CrossCore.Services;
+﻿using System;
+
+namespace Digbyswift.Experian.CrossCore.Services;
 
 public class AmlCheckDto
 {
     public string FullName { get; set; }
+
+    public DateTime? DateOfBirth { get; set; }
+
 #if NETFRAMEWORK
     public string Title { get; set; }
     public string Email { get; set; }

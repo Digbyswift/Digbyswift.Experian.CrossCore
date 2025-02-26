@@ -31,7 +31,12 @@ public class ExperianAmlService : IAmlService
 
         var contact = new Contact
         {
-            Person = new Person(dto.Title, dto.FullName),
+            Person = new Person(dto.Title, dto.FullName)
+            {
+                Details = dto.DateOfBirth.HasValue
+                    ? new PersonDetails(dto.DateOfBirth.Value)
+                    : new PersonDetails()
+            },
             Addresses =
             [
                 new Address
