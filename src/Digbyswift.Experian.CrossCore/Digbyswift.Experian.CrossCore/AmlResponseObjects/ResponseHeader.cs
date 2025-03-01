@@ -45,7 +45,7 @@ public class ResponseHeader
     public string? MessageTime { get; set; }
 
     [JsonPropertyName("overallResponse")]
-    public OverallResponse OverallResponse { get; set; }
+    public OverallResponse? OverallResponse { get; set; }
 
     [JsonPropertyName("responseCode")]
     public string? ResponseCode { get; set; }

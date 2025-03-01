@@ -102,7 +102,7 @@ public class ExperianAmlService : IAmlService
                     return new(AmlCheckStatus.Failed, result.ResponseHeader.ExpRequestId);
             }
 
-            return AmlCheckResult.Success(result.ResponseHeader.ExpRequestId);
+            return AmlCheckResult.Success(result.ResponseHeader?.ExpRequestId ?? String.Empty);
         }
         catch (Exception ex)
         {

@@ -8,16 +8,20 @@ namespace Digbyswift.Experian.CrossCore.AmlRequestObjects;
 public class Name
 {
     public string Type { get; } = "Current";
+
+#if NETFRAMEWORK
+    public string Title { get; set; }
     public string FirstName { get; set; }
 
     [JsonPropertyName("surName")]
     public string LastName { get; set; }
-
-#if NETFRAMEWORK
-    public string Title { get; set; }
     public string MiddleNames { get; set; }
 #else
     public string? Title { get; set; }
+    public string? FirstName { get; set; }
+
+    [JsonPropertyName("surName")]
+    public string? LastName { get; set; }
     public string? MiddleNames { get; set; }
 
 #endif
