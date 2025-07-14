@@ -1,5 +1,8 @@
 # Digbyswift - Experian CrossCore
 
+[![NuGet version (Digbyswift.Experian.CrossCore)](https://img.shields.io/nuget/v/Digbyswift.Experian.CrossCore.svg)](https://www.nuget.org/packages/Digbyswift.Experian.CrossCore/)
+[![Build and publish package](https://github.com/Digbyswift/Digbyswift.Experian.CrossCore/actions/workflows/dotnet-build-publish.yml/badge.svg)](https://github.com/Digbyswift/Digbyswift.Experian.CrossCore/actions/workflows/dotnet-build-publish.yml)
+
 ## Overview
 
 This is a roll-your-own implementation of the Experian API AML (Anti-Money Laundering) function set. The offical API .NET library
