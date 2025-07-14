@@ -7,9 +7,9 @@
         <PackageProjectUrl>https://github.com/digbyswift/Digbyswift.Experian.Core</PackageProjectUrl>
         <RepositoryUrl>https://github.com/digbyswift/Digbyswift.Experian.Core</RepositoryUrl>
         <PackageTags>c# experian client</PackageTags>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <PackageVersion>1.0.0</PackageVersion>
-        <FileVersion>1.0.0</FileVersion>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <PackageVersion>1.0.1-preview0</PackageVersion>
+        <FileVersion>1.0.1</FileVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(TargetFramework)' == 'net48' ">
         <Nullable>disable</Nullable>
